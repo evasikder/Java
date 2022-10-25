@@ -1,6 +1,11 @@
 
 public class AssignmentARRAY {
 
+private static final int a = 0;
+private static final int b = 0;
+
+
+
 public static void main(String[] args) {
 
 	//step 1: Create an array of the following values "Netflix", "Hulu", "Amazon Prime", "Disney Plus".
@@ -12,10 +17,9 @@ public static void main(String[] args) {
 	
 	String[] Service = {"Netflix", "Hulu", "Amazon Prime", "Disney Plus"}; 
 	service[3] = "HBO Max";
-	System.out.println(service[3]);
+	System.out.println(Service[3]);
 	//Outputs HBO Max
 	
-
 	//Step 3: If the 2nd element in the array is "Amazon Prime" then print "True".
 	
     if (service [2] == "Amazon Prime") {
@@ -43,14 +47,22 @@ public static void main(String[] args) {
 	int y = myNewDoubleArray [1][0];
 	System.out.println("my New Double Array is " +  y);
 	
-	//Call your method myFunc() and print the product of 4 and 8
+	//Step 7:
+	myFunc(4,8);
+}
+	
+
+
+	// Step 7: Call your method myFunc() and print the product of 4 and 8
+	           
+	         static void myFunc(int a , int b) {
+		       System.out.println(a+b);
+
 	
 	
-}
+	       }
 
 
 
-
-
-}
+   }
 
